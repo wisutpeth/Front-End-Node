@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 
 //Base URL for the API
 //cont base_url = "https://api.example.com";
-const basr_url = "http://localhost:3500";
+const base_url = "http://localhost:3500";
 
 app.set('view engine', 'ejs');
 app.use(bodyParser.json());
